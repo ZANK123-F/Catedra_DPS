@@ -14,10 +14,18 @@ const Header = () => {
 const Footer = () => {
   return (
     <View style={styles.footer}>
-      <Image source={require('./assets/inicio.jpg')} style={styles.footerIcon} />
-      <Image source={require('./assets/cuentas.png')} style={styles.footerIcon} />
-      <Image source={require('./assets/notas.jpg')} style={styles.footerIcon} />
-      <Image source={require('./assets/soporte.jpg')} style={styles.footerIcon} />
+      <TouchableOpacity onPress={() => console.log("Hacer clic en hogar")}>
+              <Image source={require('./assets/hogar.png')} style={styles.footerIcon} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => console.log("Hacer clic en usuario")}>
+              <Image source={require('./assets/usuario.png')} style={styles.footerIcon} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => console.log("Hacer clic en notas")}>
+              <Image source={require('./assets/notas.png')} style={styles.footerIcon} />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => console.log("Hacer clic en centro de llamadas")}>
+              <Image source={require('./assets/centro-de-llamadas.png')} style={styles.footerIcon} />
+            </TouchableOpacity>
     </View>
   );
 };
