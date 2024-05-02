@@ -10,7 +10,7 @@ const Header = () => {
     </View>
   );
 };
-
+//messi
 const Footer = () => {
   return (
     <View style={styles.footer}>
