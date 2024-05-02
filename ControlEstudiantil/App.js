@@ -18,6 +18,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  //pipipi
   container: {
     flex: 1,
     backgroundColor: '#6B3ABB',
