@@ -12,6 +12,7 @@ export default function App() {
           <Text style={styles.buttonText}>Iniciar Sesión</Text>
         </TouchableOpacity>
       </View>
+     //aaaaaaaaaaaa
       <StatusBar style="auto" />
     </View>
   );
