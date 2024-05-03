@@ -167,4 +167,5 @@ const styles = StyleSheet.create({
     color: '#6B3ABB',
     fontWeight: 'bold',
   },
-});
+ }
+);
