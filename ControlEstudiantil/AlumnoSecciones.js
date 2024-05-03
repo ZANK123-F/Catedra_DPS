@@ -10,6 +10,7 @@ const Header = () => {
   );
 };
 
+//.....
 const Footer = () => {
   return (
     <View style={styles.footer}>
